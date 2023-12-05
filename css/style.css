@@ -1,0 +1,114 @@
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+	
+ 
+html,body{
+	height: 100%;
+	background-color: #e1ccdd;
+}
+
+.header{
+	margin-top: -10px;
+	margin-right: 10px;
+	height: 34px;
+	width: 100%;
+	background-color: #cea4c5;
+}
+
+.social-media{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.links{
+	padding: 5px 5px;
+	margin-right: 7px;
+	color: black;
+	font-size: 17px;
+}
+
+.name{
+	position: relative;
+	left: 30px;
+	display: inline-block;
+
+}
+
+.name span{
+	font-size: 27px;
+	font-family: 'Bebas Neue', sans-serif;
+	color: black;
+
+}
+
+.header-center{
+	background-color: #e1ccdd;
+}
+
+.header-center .links-center{
+	position: relative;
+	bottom: 120px;
+	left: 30%;
+	margin-left: -20px ;
+}
+
+.links-center a{
+	margin-right: 10px;
+	font-size: 23px;
+	font-family: 'Bebas Neue', sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+.header-bottom{
+	width: 100%;
+	height: 8px;
+	background-color: #cea4c5;
+
+}
+
+.middle{
+	text-align: center;
+	height: 300px;
+	width: 100%;
+	
+	
+}
+
+.missions{
+	margin-top: 5%;
+	display: flex;
+	width: 100%;
+	
+	
+}
+
+.mission01{
+	border-radius: 5px;
+	margin-right: 2px;
+	background-color: #cea4c5;
+	padding: 13px 15px;
+
+}
+
+.vision{
+	border-radius: 5px;
+	margin-right: 2px;
+	background-color: #cea4c5;
+	padding: 13px 5px;
+	
+
+}
+
+.value{
+	border-radius: 5px;
+	background-color: #cea4c5;
+	padding: 13px 15px;
+	
+}
+
+
