@@ -8,6 +8,7 @@
 html,body{
 	height: 100%;
 	background-color: #e1ccdd;
+	overflow-x: hidden;
 }
 
 .clear{
@@ -33,6 +34,7 @@ html,body{
 	top: 7px;
 	padding: 5px 5px;
 	margin-right: 7px;
+	margin-left: 5px;
 	color: black;
 	font-size: 20px;
 	
@@ -61,6 +63,7 @@ html,body{
 
 .header-center img{
 	width: 100px;
+	margin-left: 15px;
 }
 
 .header-center .links-center{
@@ -87,60 +90,57 @@ html,body{
 
 }
 
-.middle{
+
+
+
+.container-banner{
+	width: 100%;
+	height: 480px;
+	background-image: url('../imagens/morango.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.container-banner-slogan{
+	width: 450px;
+	height: 200px;
+	padding: 40px;
+	margin-top: 120px;
+	margin-left: 100px;
+	float: left;
+	background-color: rgba(225, 204, 221, 0.6);
+}
+
+.container-banner-slogan h1{
 	text-align: center;
-	height: 250px;
-	width: 100%;
-	background-color: #ffc8f2;
-	display: inline-block;
+	text-decoration: underline;
+	padding-bottom: 10px;
+
+}
+
+.container-banner-slogan ul{
+	list-style-position:inside;
 	
 	
 }
 
-.missions{
-	vertical-align: center;
-	margin-top: 62.5px;
-	display: flex;
-	width: 100%;
-	
-	
+.container-banner-slogan ul li{
+	font-size: 25px;
+	text-align: left;
+	margin-left: 35px;
+
 	
 }
 
-.mission01{
-	width: 100%;
-	font-weight: bold;
-	border-radius: 5px;
-	margin-right: 2px;
-	background-color: #cea4c5;
-	padding: 13px 15px;
 
-}
-
-.vision{
-	width: 100%;
-	font-weight: bold;
-	border-radius: 5px;
-	margin-right: 2px;
-	background-color: #cea4c5;
-	padding: 13px 5px;
-	
-
-}
-
-.value{
-	width: 100%;
-	font-weight: bold;
-	border-radius: 5px;
-	background-color: #cea4c5;
-	padding: 13px 15px;
-	
-}
 
 .show{
 	text-align: center;
 	width: 100%;
 	height: 100px;
+	background-color: #cea4c5;
+
 }
 
 .show span{
@@ -183,13 +183,10 @@ html,body{
 
 }
 
-.pie h2{
+.pie button{
 	position: absolute;
-	width: 10px;
-	left: 25%;
-	top: 200px;
-	color: white;
-	font-size: 45px;
+	left: 40%;
+	margin-top: 20px;
 	font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -214,13 +211,10 @@ html,body{
 
 }
 
-.cake h2{
+.cake button{
 	position: absolute;
-	width: 10px;
-	left: 90px;
-	top: 250px;
-	color: white;
-	font-size: 45px;
+	left: 35%;
+	margin-top: 20px;
 	font-family: 'Bebas Neue', sans-serif;
 
 	
@@ -246,13 +240,9 @@ html,body{
 
 }
 
-.savory h2{
+.savory button{
 	position: absolute;
-	width: 10px;
-	left: 90px;
-	top: 250px;
-	color: white;
-	font-size: 45px;
+	left: 35%;
 	font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -276,13 +266,126 @@ html,body{
     background-size: contain;
 }
 
-.candy h2{
+.candy button{
 	position: absolute;
-	width: 10px;
-	left: 90px;
-	top: 250px;
-	color: white;
-	font-size: 45px;
+	left: 35%;
+	margin-top: ;
 	font-family: 'Bebas Neue', sans-serif;
 }
-/*
+
+
+.show-mission{
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	background-color: #ba4aa9;
+
+}
+
+.show-mission span{
+	display: inline-block;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin-top:17px;
+
+
+}
+
+
+.middle{
+	width: 100%;
+	background-color:#ffc8f2;
+	text-align: center;
+
+}
+
+
+.mission-categories{
+	float: left;
+	width: 33%;
+	margin-right: 2px;
+	margin-top: 15px;
+	padding: 30px;
+	border-radius: 8%;
+	background-color: #cea4c5;
+
+}
+
+.mission-categories:last-child{
+	margin-right: 0;
+}
+
+.mission-categories p{
+	padding:13px 15px;
+	text-align: justify;
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+.mission-categories h3{
+	text-decoration: underline;
+	padding: 13px 15px;
+	font-family: 'Bebas Neue';
+	font-weight: normal;
+}
+
+
+@media screen and (max-width: 1024px){
+	.container-banner{
+		width: 100%;
+		padding: 40px 0;
+		height: auto;
+		text-align: center;
+	}
+
+	.container-banner-slogan{
+		width: 60%;
+		height: auto;
+		padding: 40px;
+		margin-top: 30px;
+		margin-left: 30px;
+		float: none;
+		display: inline-block;
+	}
+
+	.container-banner-slogan h1{
+		text-align: left;
+		margin-left: 35px;
+		
+	}
+
+	.container-banner-slogan ul li{
+		font-size: 25px;
+		text-align: left;
+	}
+
+
+}
+
+@media screen and (max-width: 768px){
+	.name{
+		left: 25%;
+
+	}
+
+	.container-banner-slogan{
+		width: 90%;
+		height: auto;
+		padding: 40px;
+		margin-top: 30px;
+		margin-left: 30px;
+		float: left;
+		
+	}
+	.mission-categories{
+		display: inline-block;
+		float: none;
+		width: 100%;
+		padding: 30px 0;
+	}
+}
+
+
+
+
+
