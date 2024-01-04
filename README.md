@@ -1,1 +1,1 @@
-Estou estudando e ao mesmo tyempo conforme vou aprendendo irei compilar este site
+Estou estudando e ao mesmo tempo conforme vou aprendendo irei compilar este site!
